@@ -8,6 +8,8 @@ body{
     background: linear-gradient(120deg, #1A3636, #40534C);
 }
 
+
+
 button{
   background-color: #fdfdfd;
   color: D6BD98;
@@ -40,6 +42,11 @@ input, select{
     border: 1px 1px solid #ccc;
 }
 
+header h1{
+    color: #fdfdfd;
+    font-size: 2rem;
+}
+
 #tarefas-form,
 #edit-form{
     padding: 1rem;
@@ -50,6 +57,8 @@ input, select{
 #edit-form p {
     margin-bottom: 0.5rem;
     font-weight: bold;
+    color: #fdfdfd;
+    font-size: 1.3rem;
 }
 
 .form-control{
@@ -71,6 +80,8 @@ input, select{
 
 #toolbar p{
     margin-bottom: .5rem;
+    color: #fdfdfd;
+    font-size: 1.3rem;
 }
 
 #search{
@@ -94,6 +105,8 @@ input, select{
 #search p{
     margin-bottom: 0.5rem;
     font-weight: bold;
+    
+    
 }
 
 #filter{
@@ -125,25 +138,30 @@ input, select{
     padding: 1rem 1rem;
     border-bottom: 1px solid #ddd;
     transition: 0.3s;
-  }
+}
 
-
+#todo-list p{
+    color: #fdfdfd;
+    font-size: 1rem;
+}
   
-  .todo h3 {
+.todo h3 {
     flex: 1;
     font-size: 0.9rem;
-  }
+    color: #fdfdfd;
+    font-size: 1rem;
+}
   
-  .todo button {
+.todo button {
     margin-left: 0.4rem;
-  }
+}
   
-  .done {
+.done {
     background: #395169;
-  }
+}
   
-  .done h3 {
+.done h3 {
     color: #fff;
     text-decoration: line-through;
     font-style: italic;
-  }
+}
