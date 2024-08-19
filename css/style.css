@@ -5,13 +5,13 @@
 }
 
 body{
-    background: linear-gradient(120deg, #0C0C0C, #481E14);
+    background: linear-gradient(120deg, #1A3636, #40534C);
 }
 
 button{
   background-color: #fdfdfd;
-  color: #9B3922;
-  border: 2px solid #9B3922;
+  color: D6BD98;
+  border: 2px solid D6BD98;
   padding: 0.3rem 0.6rem;
   font-size: 1rem;
   cursor: pointer;
@@ -29,7 +29,7 @@ input, select{
 .tarefas-container{
     max-width: 450px;
     margin: 3rem auto;
-    background-color: #fdfdfd;
+    background-color: #677D6A;
     padding: 1.5rem;
     border-radius: 15px;
 }
