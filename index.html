@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Listas</title>
+</head>
+
+<body>
+    <div class="tarefas-container">
+        <header>
+            <h1>Organizador de tarefas</h1>
+        </header>
+        <form id="tarefas-form">
+            <p>Adicione suas tarefas:</p>
+            <div class="form-control">
+                <input type="text" id="tarefa-input" placeholder="Qual e sua tarefa?">
+                <button type="submit"> +</button>
+            </div>
+        </form>
+        <form id="edit-form">
+            <p>Edite suas tarefas:</p>
+            <div class="form-control">
+                <input type="text" id="tarefa-edit" placeholder="Qual e sua tarefa?">
+                <button type="submit"> ></button>
+            </div>
+        </form>
+        <div id="toolbar">
+            <div id="search">
+                <p>Pesquisar:</p>
+                <form>
+                    <input type="text" id="search-input" placeholder="Busque suas tarefas">
+                    <button id="erase-button">
+                        -
+                    </button>
+                </form>
+            </div>
+            <div id="filter">
+                <p>Filtrar:</p>
+                <select id="filter-select">
+                    <option value="all">Todos</option>
+                    <option value="done">Feito</option>
+                    <option value="fail">Pendente</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="todo-list">
+
+            <p>Template</p>
+
+            <div class="todo">
+                <h3>Estou fazendo algo aqui...</h3>
+                <button class="finish-todo">
+                    Finish</button>
+                <button class="edit-todo">
+                    Edit
+                </button>
+                <button class="remove-todo">
+                    Remove
+                </button>
+            </div>
+        </div>
+        <script src="js/script.js" defer></script>
+</body>
+
+</html>
