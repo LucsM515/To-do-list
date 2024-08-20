@@ -5,15 +5,15 @@
 }
 
 body{
-    background: linear-gradient(120deg, #F7EFE5, #E2BFD9);
+    background: linear-gradient(120deg, #0C0C0C, #021526);
 }
 
 
 
 button{
-  background-color: #C8A1E0;
-  color: #D6BD98;
-  border: 2px solid #D6BD98;
+  background-color: #03346E;
+  color: #6EACDA;
+  border: 2px solid #6EACDA;
   padding: 0.3rem 0.6rem;
   font-size: 1rem;
   cursor: pointer;
@@ -31,7 +31,7 @@ input, select{
 .tarefas-container{
     max-width: 450px;
     margin: 3rem auto;
-    background-color: #674188;
+    background-color: #577B8D;
     padding: 1.5rem;
     border-radius: 15px;
 }
@@ -157,7 +157,7 @@ header h1{
 }
   
 .done {
-    background: #395169;
+    background: #344C64;
 }
   
 .done h3 {
